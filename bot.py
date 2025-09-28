@@ -7,8 +7,8 @@ from telegram.ext import (
 )
 
 # Берём секреты из переменных окружения (не храните токен/карту в открытому коде)
-BOT_TOKEN = os.getenv("8132763923:AAE5w5ZVwhkt7e0SZBS5Nw-xNHfNDDr7DrU")
-CARD_NUMBER = os.getenv("9860 1606 0578 8241")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CARD_NUMBER = os.getenv("CARD_NUMBER")
 
 app = Application.builder().token(BOT_TOKEN).build()
 
