@@ -121,7 +121,3 @@ app.add_handler(CommandHandler("status", status))
 
 if __name__ == "__main__":
     app.run_polling()
-
-Файл requirements.txt
-
-python-telegram-bot==20.3
