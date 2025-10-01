@@ -119,5 +119,5 @@ app.add_handler(MessageHandler(filters.PHOTO, handle_photo))
 app.add_handler(CallbackQueryHandler(callback_handler))
 app.add_handler(CommandHandler("status", status))
 
-if __name__ == "__main__":
+if __name__ == "__main__" :
     app.run_polling()
